@@ -1,0 +1,85 @@
+/* Testimonials Section Styling */
+.testimonials-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px 20px;
+    background-color: var(--background-color); /* Light purple background */
+    color: var(--text-color); /* Dark text for contrast */
+    min-height: 100vh; /* Full viewport height to center vertically */
+  }
+  
+  .section-title {
+    font-size: 2.5em;
+    margin-bottom: 30px;
+    color: var(--base-color); /* Base color for title */
+  }
+  
+  /* Adjust the Slider container to center the testimonials horizontally */
+  .slick-slider {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%; /* Ensure it takes the full width of the section */
+  }
+  
+  .slick-list {
+    overflow: hidden;
+  }
+  
+  .slick-slide > div { /* Direct child of slick-slide to ensure proper centering */
+    display: flex;
+    justify-content: center;
+  }
+  
+  /* Styling for each testimonial card */
+  .testimonial-card {
+    width: 80%;
+    max-width: 800px; /* Optional: Max width for the card */
+    margin: 0 auto; /* Center the card horizontally */
+    border: none;
+    box-shadow: 0 6px 12px rgba(125, 37, 236, 0.15); /* Light shadow */
+    background: var(--light-color); /* Lightest purple for card background */
+    border-radius: 15px;
+    overflow: hidden;
+    padding: 20px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .testimonial-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 12px 24px rgba(125, 37, 236, 0.25); /* Deep shadow on hover */
+  }
+  
+  .testimonial-quote {
+    font-size: 1.2em;
+    font-style: italic;
+    margin-bottom: 10px;
+  }
+  
+  .testimonial-feedback {
+    font-size: 1em;
+    margin-bottom: 15px;
+    color: var(--color-dark); /* Slightly darker for feedback text */
+  }
+  
+  .testimonial-author {
+    font-size: 0.9em;
+    font-weight: bold;
+    color: var(--base-color); /* Base color for author */
+  }
+  
+  /* Slick Carousel Customization */
+  .slick-dots {
+    bottom: -30px;
+  }
+  
+  .slick-dots li button:before {
+    font-size: 12px;
+    color: var(--base-color); /* Customize the color of the dots */
+  }
+  
+  .slick-dots li.slick-active button:before {
+    color: var(--base-color); /* Active dot color */
+  }
+  

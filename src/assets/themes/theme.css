@@ -1,0 +1,30 @@
+/* Colors */
+:root {
+    --primary-color: #B19CD9; /* Light purple */
+    --secondary-color: #D3CCE3; /* Lighter purple */
+    --background-color: #F3F0FF; /* Very light purple */
+    --text-color: #333333; /* Dark text for contrast */
+    --accent-color: #967BB6; /* Darker purple for accents */
+    --light-color: #EDE7F6; /* Lightest purple for backgrounds */
+
+    /* Base Color */
+  --base-color: #7D25EC;
+
+  /* Lighter Shades */
+  --light-tint-1: #9653F0;
+  --light-tint-2: #AF82F4;
+  --light-tint-3: #C9B0F8;
+  --light-tint-4: #E2DFFB;
+
+  /* Darker Shades */
+  --dark-shade-1: #6D1FDB;
+  --dark-shade-2: #5E1ABA;
+  --dark-shade-3: #4E159A;
+  --dark-shade-4: #3F1079;
+
+    --color-black:#111111;
+    --color-black-ex:#5f5e5e;
+    --color-dark:#7A7A7A7A;
+    --color-dark-ex:#ceccc5;
+    --color-light-ex:#EFEEE8;
+  }

@@ -1,38 +1,246 @@
-.App {
+/* ....Google font..... */
+
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none !important;
+  list-style: none;
+  font-weight: 400;
   text-align: center;
+
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+:root{
+  
+
+  --font-family-roboto: "Roboto", sans-serif;
+  --font-family-lora: "Lora", serif;
+
+  --transition:.4s ease;
+
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+html{
+  scroll-behavior: smooth;
+  font-family: var(--font-family-roboto);
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+body{
+  overflow-x:hidden;
+}
+
+h1,h2,h3,h4,h5{
+  font-family: var(--font-family-lora);
+  text-transform: capitalize;
+}
+
+h1{
+  font-size: 80px;
+}
+
+h2{
+  font-size: 48px;
+  line-height: auto;
+}
+
+h3{
+  font-size: 28px;
+  line-height: auto;
+}
+
+.h3-ex{
+  font-size: 26px !important;
+}
+
+h4{
+  font-size: 22px;
+  line-height: auto;
+}
+
+h5{
+  font-size: 17px;
+}
+
+p{
+  font-size: 16px;
+  line-height: 220%;
+  letter-spacing: 4%;
+}
+
+small{
+  font-size: 13px;
+  letter-spacing: 16%;
+}
+
+.stylish-button {
+  width:fit-content;
+  height: fit-content;
+  background: linear-gradient(45deg, var(--light-tint-1), var(--light-tint-3)); /* Purple background */
+  color: white; /* White text */
+  border: none; /* No border */
+  border-radius: 15px; /* Rounded corners */
+  padding: 15px 30px; /* Padding for size */
+  font-size: 16px; /* Font size */
+  font-weight: bold; /* Bold text */
+  cursor: pointer; /* Pointer cursor on hover */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Shadow for depth */
+  transition: background-color 0.3s, transform 0.3s; /* Smooth transitions */
+}
+
+.stylish-button:hover {
+  background: linear-gradient(45deg, var(--base-color), var(--light-tint-2)); /* Darker purple on hover */
+  transform: translateY(-2px); /* Slight lift effect */
+}
+
+.stylish-button:active {
+  background: linear-gradient(45deg, var(--light-tint-1), var(--light-tint-3));/* Original color on click */
+  transform: translateY(0); /* Remove lift effect on click */
+}
+
+.button {
+  background: linear-gradient(180deg, var(--secondary-color) 26.71%, var(--primary-color) 99.36%);
+  box-shadow: 0px 20px 24px 3px var(--background-color);
+  border-radius: 34px;
+  border: none;
+  color: white;
+  font-size: 16px;
+  padding: 11px 26px 11px 26px;
+}
+
+.button:hover {
+  background: var(--accent-color);
+  cursor: pointer;
+  border: 1px solid var(--accent-color);
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.btn{
+  display:inline-block;
+  width: fit-content;
+  color:var(--color-black);
+  display:flex;
+  align-items: center;
+  gap:8px;
+  padding:20px 35px;
+  text-transform: uppercase;
+  transition: var(--transition);
+  position: relative;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+.btn::after{
+  content: '';
+  width: 0 !important;
+  height:100%;
+  background-color: var(--color-black-ex);
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: -1;
+  transition: var(--transition);
+}
+
+.btn:hover::after{
+  width:100%;
+}
+
+.btn-border{
+  border: 1px solid var(--color-dark-ex);
+}
+
+
+section{
+  padding: 180px 0 !important;
+}
+
+.container{
+  width: 90%;
+  margin: 0 auto;
+  max-width: 1420px ;
+}
+
+/* ......MAx width 1024px...... */
+@media(max-width:1024px){
+  h1{
+    font-size: 60px !important;
   }
-  to {
-    transform: rotate(360deg);
+  h2{
+    font-size: 38px !important;
   }
+  h3{
+    font-size: 26px !important;
+  }
+  
+  section{
+    padding: 100px 0 !important;
+  }
+}
+
+/* ......MAx width 600px...... */
+@media(max-width:600px){
+  h1{
+    font-size: 40px !important;
+  }
+  h2{
+    font-size: 34px !important;
+  }
+  h3{
+    font-size: 24px !important;
+  }
+  h4{
+    font-size: 20px !important;
+  }
+  section{
+    padding: 70px 0 !important;
+  }
+  .sm\:hidden {
+    display: none;
+  }
+}
+
+@media (min-width: 768px) {
+  .md\:hidden {
+      display: none;
+  }
+}
+/* WebKit-based browsers (Chrome, Safari) */
+/* Track */
+::-webkit-scrollbar {
+  width: 4px; /* Width of the scrollbar */
+  height: 4px;
+  margin: 1px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888; /* Color of the scrollbar handle */
+  border-radius: 5px; /* Rounded corners of the scrollbar handle */
+}
+
+/* Remove scrollbar buttons */
+::-webkit-scrollbar-button {
+  display: none; /* Hide scrollbar buttons */
+}
+
+/* Firefox */
+/* Width of scrollbar */
+.scrollbar {
+  scrollbar-width: thin;
+  scrollbar-color: #888 transparent; /* Color of the scrollbar handle */
+}
+
+/* Handle */
+.scrollbar::-webkit-scrollbar-thumb {
+  background-color: #888; /* Color of the scrollbar handle */
+  border-radius: 5px; /* Rounded corners of the scrollbar handle */
+}
+
+/* Handle */
+.scrollbar-thumb {
+  background-color: #888; /* Color of the scrollbar handle */
+  border-radius: 5px; /* Rounded corners of the scrollbar handle */
 }

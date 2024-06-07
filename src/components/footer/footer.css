@@ -1,0 +1,65 @@
+.footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+    background: linear-gradient(90deg, rgb(233, 220, 255) 23%, #cca4fd, 3%, rgb(233, 220, 255) 103% ); /* Very light purple */
+    color: var(--text-color); /* Dark text color */
+    padding: 40px 0;
+  }
+  .footer h2{
+    background: linear-gradient(90deg, #37C592 -0.99%, #7D25EC 104.61%);
+    -webkit-background-clip: text; /* Corrected property name */
+    -webkit-text-fill-color: transparent; /* Corrected property name */
+    background-clip: text; /* Adding non-webkit prefixed version */
+  }
+  span{
+    margin:8px;
+  }
+
+  .footer-links{
+    color: var(--dark-shade-3);
+    margin-top: 20px;
+  }
+  .container {
+    width: 80%;
+    margin: 0 auto;
+  }
+  .copyright{
+    margin: 10px;
+    color: var(--color-dark);
+  }
+  
+  .row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .col-md-6 {
+    width: 50%;
+  }
+  
+  h4 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: var(--base-color); /* Base color */
+  }
+  
+  p {
+    font-size: 16px;
+    line-height: 1.6;
+  }
+  
+  .social-links a {
+    color: var(--dark-shade-2); /* Base color for social links */
+    font-size: 24px;
+    margin-right: 20px;
+  }
+  
+  .social-links a:hover {
+    color: var(--light-tint-1); /* Lighter tint on hover */
+  }
+  
+  
+  

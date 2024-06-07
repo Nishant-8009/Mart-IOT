@@ -1,0 +1,168 @@
+.banner{
+    display: flex;
+    flex-direction: row;
+    color: white;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgba(255,255,255,0.5);
+}
+.box div {
+	height: 60px;
+	width: 60px;
+	position: absolute;
+	top: 10%;
+	left: 10%;
+	animation: animate 4s linear infinite;
+	background: #dbcbf9;
+	border-radius: 15px;
+    z-index:    -1;
+}
+.box div:nth-child(1) {
+	top: 20%;
+	left: 20%;
+	animation: animate 8s linear infinite;
+}
+.box div:nth-child(2) {
+	top: 26%;
+	left: 89%;
+	animation: animate 10s linear infinite;
+}
+.box div:nth-child(3) {
+	top: 80%;
+	left: 90%;
+	animation: animate 5s linear infinite;
+}
+.box div:nth-child(4) {
+	top: 65%;
+	left: 75%;
+	animation: animate 7s linear infinite;
+}
+.box div:nth-child(5) {
+	top: 90%;
+	left: 10%;
+	animation: animate 9s linear infinite;
+}
+.box div:nth-child(6) {
+	top: 30%;
+	left: 60%;
+	animation: animate 5s linear infinite;
+}
+.box div:nth-child(7) {
+	top: 70%;
+	left: 33%;
+	animation: animate 8s linear infinite;
+}
+.box div:nth-child(8) {
+	top: 75%;
+	left: 60%;
+	animation: animate 10s linear infinite;
+}
+.box div:nth-child(9) {
+	top: 23%;
+	left: 50%;
+	animation: animate 6s linear infinite;
+}
+.box div:nth-child(10) {
+	top: 35%;
+	left: 7%;
+	animation: animate 10s linear infinite;
+}
+@keyframes animate {
+	0% {
+		transform: scale(0) translateY(0) rotate(50deg);
+	}
+	100% {
+		transform: scale(1.6) translateY(-250px) rotate(360deg);
+	}
+}
+
+.left-banner{
+    width:50%;
+    text-align: left;
+    margin-left :70px;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    justify-content: center;
+    height: 100vh;
+    left: 0px;
+    right:auto;
+}
+.right-banner{
+    width:50%;
+    margin:15px;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    right: 0px;
+    left:auto;
+}
+
+.chooseUs{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    background-color: var(--background-color);
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+}
+.btn-section{
+    background-color: #e5daffde;
+    color: #7D25EC;
+    width: fit-content;
+    padding: 8px;
+    margin-top: 20px;
+    border-radius: 12px;
+
+}
+h5{
+    padding: 10px;
+    color:var(--dark-shade-4);
+    text-align: left;
+}
+h5 span{
+    background: linear-gradient(90deg, #37C592 -0.99%, #7D25EC 104.61%);
+    -webkit-background-clip: text; /* Corrected property name */
+    -webkit-text-fill-color: transparent; /* Corrected property name */
+    background-clip: text; /* Adding non-webkit prefixed version */
+    font-size: 75px;
+   font-weight:600 ;
+}
+.left-banner p{
+    padding: 10px;
+    text-align: left;
+    font-weight: 400;
+    color:var(--dark-shade-2);
+}
+.cards-container{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.enhanced-card:hover {
+    transform: translateY(-5px); /* Slightly lift the card */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Enhance the shadow */
+  }
+
+.product{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+}
+.product-container{
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+}

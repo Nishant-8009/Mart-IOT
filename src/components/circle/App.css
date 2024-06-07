@@ -1,0 +1,22 @@
+.info-box-wrapper{
+    position:relative;
+    background-color: aquamarine;
+    padding: 10px;
+    width: 200px;
+}
+.fancy-carousel-wrapper-element {
+    margin-bottom:60px;
+}
+.carousel h2 {
+    background: linear-gradient(90deg,#8b2efc 12.27%, #9F54FD 22.27%, #9cf3ff 105.76%);
+    -webkit-background-clip: text; 
+    -webkit-text-fill-color: transparent;
+    background-clip: text; 
+   font-weight:600 ;
+}
+.fancy-carousel-border {
+    background-image: none !important; /* Hide the background dotted circle */
+}
+.main{
+    position: relative;
+}
