@@ -9,15 +9,15 @@ import img4 from '../../assets/images/digital learning.jpg';
 export const navlinks=[
     {
         name:'Home',
-        path:'/'
+        path:'/Mart-IOT/'
     },
     {
         name:'Our Products',
-        path:'/products'
+        path:'/Mart-IOT/products'
     },
     {
         name:'Contact US',
-        path:'/contact'
+        path:'/Mart-IOT/contact'
     }  
 ]
 
