@@ -10,7 +10,7 @@ const App = () => {
     <BrowserRouter>
     <Navbar/>
     <Routes>
-      <Route path='/' element={<HomePage/>} />
+      <Route path='/Mart-IOT' element={<HomePage/>} />
       <Route path='*' element={<Error/>} />
     </Routes>
     </BrowserRouter>
