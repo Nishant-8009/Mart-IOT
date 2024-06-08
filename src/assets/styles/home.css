@@ -79,7 +79,7 @@
 .left-banner{
     width:50%;
     text-align: left;
-    margin-left :70px;
+    padding-left :70px;
     display: flex;
     flex-direction: column;
     color: white;
@@ -124,6 +124,7 @@ h5{
     color:var(--dark-shade-4);
     text-align: left;
 }
+
 h5 span{
     background: linear-gradient(90deg, #37C592 -0.99%, #7D25EC 104.61%);
     -webkit-background-clip: text; /* Corrected property name */
@@ -166,3 +167,20 @@ h5 span{
     flex-wrap: wrap;
     align-items: center;
 }
+@media(max-width:480px){
+    h5 span{
+      font-size: 60px;
+    }
+    .left-banner p{
+        font-size: 14px;
+    }
+  }
+
+  @media(max-width:410px){
+    h5 span{
+      font-size: 50px;
+    }
+    .left-banner p{
+        font-size: 12px;
+    }
+  }

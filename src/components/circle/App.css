@@ -1,22 +1,61 @@
-.info-box-wrapper{
-    position:relative;
-    background-color: aquamarine;
-    padding: 10px;
-    width: 200px;
-}
-.fancy-carousel-wrapper-element {
-    margin-bottom:60px;
-}
-.carousel h2 {
-    background: linear-gradient(90deg,#8b2efc 12.27%, #9F54FD 22.27%, #9cf3ff 105.76%);
-    -webkit-background-clip: text; 
-    -webkit-text-fill-color: transparent;
-    background-clip: text; 
-   font-weight:600 ;
-}
-.fancy-carousel-border {
-    background-image: none !important; /* Hide the background dotted circle */
-}
-.main{
+/* App.css */
+
+.carousel {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px;
+  }
+  
+  .main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
     position: relative;
-}
+    max-width: 100%;
+    padding: 20px;
+  }
+  
+  .carousel h2 {
+    background: linear-gradient(90deg, #8b2efc 12.27%, #9F54FD 22.27%, #9cf3ff 105.76%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    font-weight: 600;
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  /* Responsive adjustments */
+  @media (max-width: 1200px) {
+    .carousel h2 {
+        margin-top: 40px ;
+      font-size: 3rem;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .main {
+      padding: 10px;
+    }
+    .carousel h2 {
+      font-size: 2.5rem;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .main {
+      padding: 5px;
+    }
+    .carousel h2 {
+      font-size: 2rem;
+    }
+  }
+  
+  /* Remove background for the carousel border */
+  .fancy-carousel-border {
+    background-image: none !important;
+  }
+  

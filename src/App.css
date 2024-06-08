@@ -169,7 +169,7 @@ section{
     font-size: 60px !important;
   }
   h2{
-    font-size: 38px !important;
+    font-size: 38px ;
   }
   h3{
     font-size: 26px !important;
@@ -184,9 +184,6 @@ section{
 @media(max-width:600px){
   h1{
     font-size: 40px !important;
-  }
-  h2{
-    font-size: 34px !important;
   }
   h3{
     font-size: 24px !important;
@@ -243,4 +240,32 @@ section{
 .scrollbar-thumb {
   background-color: #888; /* Color of the scrollbar handle */
   border-radius: 5px; /* Rounded corners of the scrollbar handle */
+}
+
+
+@media(max-width: 860px){
+  .banner{
+    flex-direction: column-reverse;
+    
+  }
+  .left-banner{
+    height: auto;
+    padding: 70px;
+    padding-top: 20px;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+  }
+  h5{
+    text-align: center;
+  }
+  .right-banner{
+    height: auto;
+    width: 100%;
+  }
+}
+@media(max-width:400px){
+  .left-banner{
+    padding:50px;
+  }
 }
