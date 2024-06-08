@@ -1,25 +1,25 @@
 {
   "files": {
-    "main.css": "/static/css/main.fdc4a023.css",
-    "main.js": "/static/js/main.c68291e5.js",
-    "static/js/453.37c63491.chunk.js": "/static/js/453.37c63491.chunk.js",
-    "static/media/iot.jpg": "/static/media/iot.8c781896cca2cc5902b7.jpg",
-    "static/media/ai.jpg": "/static/media/ai.a418bf9f36d173c12dfe.jpg",
-    "static/media/bg.jpg": "/static/media/bg.85fbc2d81eb844fe630e.jpg",
-    "static/media/digital learning.jpg": "/static/media/digital learning.a36e6ea47c803c02d6ad.jpg",
-    "static/media/data anyltics.jpg": "/static/media/data anyltics.bbf14a28af6a3d1d522f.jpg",
-    "static/media/404.png": "/static/media/404.8e499c928d84e39e68e9.png",
-    "index.html": "/index.html",
-    "static/media/slick.svg": "/static/media/slick.2630a3e3eab21c607e21.svg",
-    "static/media/slick.eot": "/static/media/slick.a4e97f5a2a64f0ab1323.eot",
-    "static/media/slick.ttf": "/static/media/slick.c94f7671dcc99dce43e2.ttf",
-    "static/media/slick.woff": "/static/media/slick.295183786cd8a1389865.woff",
-    "main.fdc4a023.css.map": "/static/css/main.fdc4a023.css.map",
-    "main.c68291e5.js.map": "/static/js/main.c68291e5.js.map",
-    "453.37c63491.chunk.js.map": "/static/js/453.37c63491.chunk.js.map"
+    "main.css": "/Mart-IOT/static/css/main.bf956c13.css",
+    "main.js": "/Mart-IOT/static/js/main.c8e62b2e.js",
+    "static/js/453.37c63491.chunk.js": "/Mart-IOT/static/js/453.37c63491.chunk.js",
+    "static/media/iot.jpg": "/Mart-IOT/static/media/iot.8c781896cca2cc5902b7.jpg",
+    "static/media/ai.jpg": "/Mart-IOT/static/media/ai.a418bf9f36d173c12dfe.jpg",
+    "static/media/bg.jpg": "/Mart-IOT/static/media/bg.85fbc2d81eb844fe630e.jpg",
+    "static/media/digital learning.jpg": "/Mart-IOT/static/media/digital learning.a36e6ea47c803c02d6ad.jpg",
+    "static/media/data anyltics.jpg": "/Mart-IOT/static/media/data anyltics.bbf14a28af6a3d1d522f.jpg",
+    "static/media/404.png": "/Mart-IOT/static/media/404.8e499c928d84e39e68e9.png",
+    "index.html": "/Mart-IOT/index.html",
+    "static/media/slick.svg": "/Mart-IOT/static/media/slick.2630a3e3eab21c607e21.svg",
+    "static/media/slick.eot": "/Mart-IOT/static/media/slick.a4e97f5a2a64f0ab1323.eot",
+    "static/media/slick.ttf": "/Mart-IOT/static/media/slick.c94f7671dcc99dce43e2.ttf",
+    "static/media/slick.woff": "/Mart-IOT/static/media/slick.295183786cd8a1389865.woff",
+    "main.bf956c13.css.map": "/Mart-IOT/static/css/main.bf956c13.css.map",
+    "main.c8e62b2e.js.map": "/Mart-IOT/static/js/main.c8e62b2e.js.map",
+    "453.37c63491.chunk.js.map": "/Mart-IOT/static/js/453.37c63491.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.fdc4a023.css",
-    "static/js/main.c68291e5.js"
+    "static/css/main.bf956c13.css",
+    "static/js/main.c8e62b2e.js"
   ]
 }
