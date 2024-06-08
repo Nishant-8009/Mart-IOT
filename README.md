@@ -4,15 +4,12 @@ Welcome to the **Mart IoT Project** repository! This project is a comprehensive,
 
 ## Table of Contents
 
-1. [Project Structure](#project-structure)
-2. [Technologies Used](#technologies-used)
-3. [Setup Instructions](#setup-instructions)
-4. [Available Scripts](#available-scripts)
-5. [Project Components](#project-components)
-6. [Custom Styling](#custom-styling)
-7. [Deployment](#deployment)
-8. [Contributing](#contributing)
-9. [License](#license)
+
+1. [Technologies Used](#technologies-used)
+2. [Setup Instructions](#setup-instructions)
+3. [Available Scripts](#available-scripts)
+4. [Deployment](#deployment)
+
 
 ## Technologies Used
 
