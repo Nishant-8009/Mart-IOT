@@ -30,7 +30,7 @@ To set up the project locally, follow these steps:
 
 2. **Navigate to the project directory**:
     ```bash
-    cd mart-iot-project
+    cd Mart-IOT
 
 3. **Install dependencies**:
     ```bash
