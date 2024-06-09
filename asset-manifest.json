@@ -1,25 +1,25 @@
 {
   "files": {
-    "main.css": "/Mart-IOT/static/css/main.bf956c13.css",
-    "main.js": "/Mart-IOT/static/js/main.eb822008.js",
-    "static/js/453.37c63491.chunk.js": "/Mart-IOT/static/js/453.37c63491.chunk.js",
-    "static/media/iot.jpg": "/Mart-IOT/static/media/iot.8c781896cca2cc5902b7.jpg",
-    "static/media/ai.jpg": "/Mart-IOT/static/media/ai.a418bf9f36d173c12dfe.jpg",
-    "static/media/bg.jpg": "/Mart-IOT/static/media/bg.85fbc2d81eb844fe630e.jpg",
-    "static/media/digital learning.jpg": "/Mart-IOT/static/media/digital learning.a36e6ea47c803c02d6ad.jpg",
-    "static/media/data anyltics.jpg": "/Mart-IOT/static/media/data anyltics.bbf14a28af6a3d1d522f.jpg",
-    "static/media/404.png": "/Mart-IOT/static/media/404.8e499c928d84e39e68e9.png",
-    "index.html": "/Mart-IOT/index.html",
-    "static/media/slick.svg": "/Mart-IOT/static/media/slick.2630a3e3eab21c607e21.svg",
-    "static/media/slick.eot": "/Mart-IOT/static/media/slick.a4e97f5a2a64f0ab1323.eot",
-    "static/media/slick.ttf": "/Mart-IOT/static/media/slick.c94f7671dcc99dce43e2.ttf",
-    "static/media/slick.woff": "/Mart-IOT/static/media/slick.295183786cd8a1389865.woff",
-    "main.bf956c13.css.map": "/Mart-IOT/static/css/main.bf956c13.css.map",
-    "main.eb822008.js.map": "/Mart-IOT/static/js/main.eb822008.js.map",
-    "453.37c63491.chunk.js.map": "/Mart-IOT/static/js/453.37c63491.chunk.js.map"
+    "main.css": "/Mart-IOT/home/static/css/main.1a76cf4a.css",
+    "main.js": "/Mart-IOT/home/static/js/main.fded1644.js",
+    "static/js/453.37c63491.chunk.js": "/Mart-IOT/home/static/js/453.37c63491.chunk.js",
+    "static/media/iot.jpg": "/Mart-IOT/home/static/media/iot.8c781896cca2cc5902b7.jpg",
+    "static/media/ai.jpg": "/Mart-IOT/home/static/media/ai.a418bf9f36d173c12dfe.jpg",
+    "static/media/digital learning.jpg": "/Mart-IOT/home/static/media/digital learning.a36e6ea47c803c02d6ad.jpg",
+    "static/media/data anyltics.jpg": "/Mart-IOT/home/static/media/data anyltics.bbf14a28af6a3d1d522f.jpg",
+    "static/media/404.png": "/Mart-IOT/home/static/media/404.8e499c928d84e39e68e9.png",
+    "static/media/carrier councelling.jpg": "/Mart-IOT/home/static/media/carrier councelling.610e8fb8187b0fa48ed1.jpg",
+    "index.html": "/Mart-IOT/home/index.html",
+    "static/media/slick.svg": "/Mart-IOT/home/static/media/slick.2630a3e3eab21c607e21.svg",
+    "static/media/slick.eot": "/Mart-IOT/home/static/media/slick.a4e97f5a2a64f0ab1323.eot",
+    "static/media/slick.ttf": "/Mart-IOT/home/static/media/slick.c94f7671dcc99dce43e2.ttf",
+    "static/media/slick.woff": "/Mart-IOT/home/static/media/slick.295183786cd8a1389865.woff",
+    "main.1a76cf4a.css.map": "/Mart-IOT/home/static/css/main.1a76cf4a.css.map",
+    "main.fded1644.js.map": "/Mart-IOT/home/static/js/main.fded1644.js.map",
+    "453.37c63491.chunk.js.map": "/Mart-IOT/home/static/js/453.37c63491.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.bf956c13.css",
-    "static/js/main.eb822008.js"
+    "static/css/main.1a76cf4a.css",
+    "static/js/main.fded1644.js"
   ]
 }
