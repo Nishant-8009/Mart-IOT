@@ -10,15 +10,15 @@ import img5 from '../../assets/images/carrier councelling.jpg';
 export const navlinks=[
     {
         name:'Home',
-        path:'/Mart-IOT/home'
+        path:'/'
     },
     {
         name:'Our Products',
-        path:'/Mart-IOT/products'
+        path:'/products'
     },
     {
         name:'Contact US',
-        path:'/Mart-IOT/contact'
+        path:'/contact'
     }  
 ]
 

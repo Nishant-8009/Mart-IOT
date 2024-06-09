@@ -28,7 +28,7 @@ function Header() {
       <nav>
       <div className="container nav-container">
           {/* {....LOGO......} */}
-          <Link to='/Mart-IOT/home' className='logo' style={{backgroundImage: `url(${logo})`}}>
+          <Link to='/' className='logo' style={{backgroundImage: `url(${logo})`}}>
 </Link>
           {/* {....Nav-left......} */}
           <ul className= {`nav-links ${isnavshow? 'navshow':'navhide'}`} >

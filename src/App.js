@@ -9,12 +9,12 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 
 const App = () => {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/Mart-IOT">
     <Navbar/>
     <Routes>
-      <Route path='/Mart-IOT/home' element={<HomePage/>} />
-      <Route path='/Mart-IOT/products' element={<Products/>} />
-      <Route path='/Mart-IOT/contact' element={<ContactPage/>} />
+      <Route path='/' element={<HomePage/>} />
+      <Route path='/products' element={<Products/>} />
+      <Route path='/contact' element={<ContactPage/>} />
       <Route path='*' element={<Error/>} />
     </Routes>
     </BrowserRouter>
