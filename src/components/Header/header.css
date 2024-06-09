@@ -6,6 +6,7 @@ nav{
     top:0;
     background-color: white;
     z-index: 100;
+    box-shadow: 0px 4px 20px var(--color-dark-ex);
     /* box-shadow: 0 0 1rem rgb(0,0,0,0.4);
     border: 1px solid var(--color-dark-ex); */
   }
@@ -165,31 +166,6 @@ nav{
   }
  
 
-  .user-avatar-container {
-      width: 36px; /* Twice the radius */
-      height: 36px; /* Twice the radius */
-      border-radius: 50%; /* Make it circular */
-      overflow: hidden; /* Hide overflow for perfect circle */
-      margin-right: 10px;
-    }
-    
-    .user-avatar {
-      width: 100%; /* Make sure the image fills the circle */
-      height: auto; /* Maintain aspect ratio */
-    }
-    .user-avatar-container::after {
-      display: none !important;
-    }
-  
-    .nav-login {
-      position: relative;
-    }
-  
-    .user-avatar-container {
-      cursor: pointer;
-      display: flex;
-      align-items: center;
-    }
   
     .arrow-icon {
       margin-left: 5px;
@@ -217,54 +193,3 @@ nav{
       background-color: #f4f4f4;
     }
   
-    .n-wrapper {
-      height: 10vh;
-      display: flex;
-      justify-content: space-between;
-      margin-bottom: 2rem;
-      top: 0;
-    }
-    .n-left {
-      flex: 1;
-      align-items: center;
-      justify-content: left;
-      display: flex;
-      gap: 2rem;
-    }
-    
-    .n-name {
-      font-size: 1.3rem;
-      font-weight: bold;
-    }
-    .n-right {
-      flex: 1;
-      display: flex;
-      align-items: center;
-      justify-content: flex-end;
-      font-weight: 400;
-    }
-    
-    .n-list {
-      flex: 10;
-    }
-    .n-list > ul {
-      display: flex;
-      gap: 2rem;
-      margin-right: 4rem;
-    }
-    
-    .n-list > ul :hover {
-      color: var(--orange);
-      cursor: pointer;
-    }
-    
-    .n-button {
-      flex: 2;
-      margin:8px;
-    }
-    
-    @media screen and (max-width: 480px) {
-      .n-list {
-        display: none;
-      }
-    }

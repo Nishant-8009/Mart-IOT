@@ -10,9 +10,11 @@ import Testimonials from '../testimonials/testimonials';
 import FaqSection from '../faq/faq';
 import Footer from '../footer/footer';
 import Circle from '../circle/Circle';
+
 const HomePage = () => {
   return (
     <>
+    
     <div className="banner">
     <div class="box">
 		<div></div>
@@ -79,7 +81,6 @@ const HomePage = () => {
     </div>
     <Testimonials/>
     <FaqSection/>
-    
       <Footer/>
     </>
   );

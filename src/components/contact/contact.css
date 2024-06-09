@@ -1,0 +1,106 @@
+.contact-container {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  align-items: flex-start;
+  margin-bottom: 30px;
+}
+.contact-container h2{
+  padding:25px;
+  padding-bottom: 0;
+  font-size: 38px;
+  color : var(--color-black-ex);
+}
+.contact-container p{
+  padding: 20px;
+  padding-top: 0;
+  color:var(--color-dark-ex);
+}
+.contact-details{
+  width: 100%;
+  padding: 3.5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  background: var(--light-color);
+}
+.contact-header {
+  font-size: 2rem;
+  color: var(--base-color);
+  margin-bottom: 1rem;
+}
+
+.contact-info p, .address-block p {
+  margin: 0.5rem 0;
+}
+
+.contact-details h2{
+  padding: 0px;
+  color:black;
+}
+.contact-details p{
+  padding: 0px;
+  color :var(--color-black-ex);
+}
+.address-section{
+  display: flex;
+  width: 100%;
+  justify-content:flex-start;
+}
+
+.contact-info a {
+
+  color: var(--accent-color);
+  text-decoration: none;
+}
+.contact-info {
+  margin-bottom: 6rem;
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.contact-details h3{
+  margin-bottom: 15px;
+  font-size: 30px;
+  font-weight: 700;
+}
+
+
+.address-block p{
+  text-align: left;
+  margin: 0;
+}
+
+.address-block {
+  margin-right: 20%;
+}
+.contact-subhead{
+ background: linear-gradient(90deg, #8b2efc 12.27%, #d854fd 42.27%, #8b2efc 105.76%);
+ -webkit-background-clip: text; /* Corrected property name */
+ -webkit-text-fill-color: transparent; /* Corrected property name */
+ background-clip: text; /* Adding non-webkit prefixed version */
+ -webkit-text-fill-color: transparent; /* Adding non-webkit prefixed version */
+}
+
+@media(max-width:700px){
+  .address-section{
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .address-block{
+    margin: 0 ;
+    margin-bottom: 6rem;
+  }
+}
+
+@media(max-width:400px){
+  .contact-container h2{
+    font-size: 32px;
+  }
+  .contact-container p{
+    font-size: 14px;
+  }
+}

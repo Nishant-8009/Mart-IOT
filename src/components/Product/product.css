@@ -1,0 +1,79 @@
+.product-detail-card {
+    display: flex;
+    align-items: center;
+    width: 90%; /* Adjust the width as needed */
+    background-color: var(--light-color); /* Lightest purple for background */
+    border: 2px solid var(--light-tint-3); /* Light border */
+    border-radius: 15px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    overflow: hidden; /* Ensure content doesn't overflow the rounded corners */
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    cursor: pointer;
+    margin: 50px auto; /* Center the card horizontally */
+  }
+  .rowreverse-direction{
+    flex-direction: row-reverse;
+  }
+  .product-detail-card:hover {
+    transform: translateY(-5px); /* Lift effect on hover */
+    box-shadow: 0 12px 24px rgba(125, 37, 236, 0.25); /* Deep shadow on hover */
+  }
+  
+  .product-detail-image {
+    width: 40%; /* Fixed width for the image */
+    height: 100%; /* Full height to match the card */
+    padding: 10px;
+    object-fit: cover; /* Cover the space while maintaining aspect ratio */
+    border-top-left-radius: 15px; /* Rounded corners for the top-left and bottom-left */
+    border-bottom-left-radius: 15px;
+  }
+  
+  .product-detail-content {
+    padding: 20px;
+    color: var(--text-color); /* Dark text for contrast */
+    flex: 1; /* Allow the content area to take up remaining space */
+  }
+  
+  .product-detail-title {
+    font-size: 1.8em;
+    margin-bottom: 15px;
+    color: var(--base-color); /* Base color for the title */
+  }
+  
+  .product-detail-description {
+    font-size: 1.1em;
+    margin-bottom: 15px;
+    line-height: 1.5;
+    color: var(--color-dark); /* Slightly darker for description text */
+  }
+  
+  .product-features {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .product-features li {
+    font-size: 1em;
+    margin-bottom: 10px;
+    color: var(--dark-shade-2); /* Darker shade for features */
+  }
+  
+  .product-features li::before {
+    content: "•"; /* Bullet point */
+    color: var(--base-color); /* Base color for bullets */
+    margin-right: 10px;
+  }
+
+  @media(max-width:900px){
+    .product-detail-card{
+        flex-direction: column;
+    }
+    .product-detail-image{
+        width: 100%;
+    }
+    .rowreverse-direction{
+        flex-direction: column;
+    }
+  }
+  

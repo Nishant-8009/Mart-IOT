@@ -1,0 +1,15 @@
+.products-lists{
+    margin: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.products-lists h2 span{
+    font-weight: 600;
+    background: linear-gradient(90deg, #37C592 -0.99%, #7D25EC 104.61%);
+ -webkit-background-clip: text; /* Corrected property name */
+ -webkit-text-fill-color: transparent; /* Corrected property name */
+ background-clip: text; /* Adding non-webkit prefixed version */
+ -webkit-text-fill-color: transparent; /* Adding non-webkit prefixed version */
+}
