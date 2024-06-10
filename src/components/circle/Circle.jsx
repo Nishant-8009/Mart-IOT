@@ -5,7 +5,7 @@ import './App.css';
 
 import img1 from '../../assets/images/ai.jpg';
 import img2 from '../../assets/images/data anyltics.jpg';
-import img3 from '../../assets/images/iot.jpg';
+import img3 from '../../assets/images/iot.png';
 import img4 from '../../assets/images/digital learning.jpg';
 import img5 from '../../assets/images/carrier councelling.jpg';
 
@@ -13,7 +13,7 @@ const Circle = () => {
   const [focusElement, setFocusElement] = useState(0);
   const [windowWidth, setWindowWidth] = useState(window.innerWidth);
   const images = [img1, img2, img3, img4, img5];
-  const info = ['Artificial Intelligence', 'Data Analytics', 'Internet Of Things', 'Digital Learning', 'Carrier Counselling'];
+  const info = ['Artificial Intelligence', 'Data Analytics', 'Internet Of Things', 'Digital Learning', 'Carrier Counseling'];
 
   // Update window width on resize
   useEffect(() => {

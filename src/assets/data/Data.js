@@ -4,7 +4,7 @@ import { RiCustomerService2Line } from "react-icons/ri";
 import { GrDocumentVerified } from "react-icons/gr"; 
 import img1 from '../../assets/images/ai.jpg';
 import img2 from '../../assets/images/data anyltics.jpg';
-import img3 from '../../assets/images/iot.jpg';
+import img3 from '../../assets/images/iot.png';
 import img4 from '../../assets/images/digital learning.jpg';
 import img5 from '../../assets/images/carrier councelling.jpg';
 export const navlinks=[
@@ -50,34 +50,34 @@ export const products = [
     image: img1,
     title: 'Artificial Intelligence',
     description : 'Utilizing advanced AI technology to optimize performance and enhance user experience.',
-    detailed_description:' Our AI solution empowers businesses to harness the power of artificial intelligence and drive digital transformation. With advanced algorithms and predictive analytics, our solution unlocks actionable insights, automates processes, and enables data-driven decision-making. Stay ahead of the competition and unlock new possibilities with our transformative AI technology.',
-    features: ['Advanced Algorithms','Predictive Analytics','Automated Decision-Making','Scalable Infrastructure']
+    detailed_description:' Unleash the transformative power of our AI solution and drive digital transformation to new heights. Leveraging state-of-the-art machine learning algorithms and real-time predictive analytics, our platform converts complex data into actionable insights, automates decision-making processes, and facilitates seamless, data-driven strategies. Stay ahead of the competition and unlock unprecedented opportunities with our innovative AI technology.',
+    features: ['State-of-the-Art Algorithms','Predictive Analytics','Automated Decision-Making','Scalable Infrastructure']
   },
   {
     image: img2,
     title: 'Data Analytics',
     description : 'Unlocking the potential of your data to drive strategic decision-making and business innovation.',
-    detailed_description:'Our data analytics solution empowers organizations to harness the full potential of their data assets and gain actionable insights. With advanced analytics tools and intuitive visualizations, our solution enables businesses to uncover hidden patterns, trends, and opportunities. Revolutionize your decision-making process and drive business growth with our powerful analytics platform.',
+    detailed_description:'Unlock the full potential of your data assets with our advanced data analytics solution. Equipped with cutting-edge analytics tools and intuitive visualizations, our platform empowers organizations to discover hidden patterns, trends, and opportunities. Revolutionize your decision-making process and accelerate business growth with our powerful analytics capabilities.',
     features: ['Advanced Analytics Tools','Intuitive Visualizations','Actionable Insights','Scalable Architecture']
   },
   {
     image: img3,
     title: 'Internet Of Things',
     description : 'Seamless integration with IoT devices to provide real-time data and insights.',
-    detailed_description:'Our IoT solution is at the forefront of connectivity and automation, empowering businesses to transform their operations and deliver unparalleled value to their customers. With seamless integration and intelligent data analytics, our solution optimizes processes, enhances efficiency, and drives innovation across industries. Join the IoT revolution with our cutting-edge technology.',
+    detailed_description:'Experience the future of connectivity and automation with our cutting-edge IoT solution. Seamlessly integrating with existing systems, our platform leverages intelligent data analytics to optimize processes, enhance efficiency, and drive innovation. Transform your operations and deliver exceptional value with our advanced IoT technology.',
     features: ['Streamlined Connectivity','Intelligent Automation','Data-Driven Insights','Scalable Architecture  ']
   },
   {
     image: img4,
     title: 'Digital Learning',
     description : 'Empowering education with digital innovation to enhance learning experiences and accessibility.',
-    detailed_description:'Our digital learning solution redefines education for the digital age, offering dynamic tools and resources to engage learners and foster a culture of continuous growth. With interactive content, personalized learning paths, and real-time feedback, our solution empowers individuals and organizations to unlock their full potential. Experience the future of learning with our innovative platform.',
+    detailed_description:'Step into the future of education with our dynamic digital learning solution. Our platform offers interactive content, personalized learning paths, and real-time feedback, designed to engage learners and foster continuous growth. Empower individuals and organizations to reach their full potential with our innovative learning technology.',
     features: ['Engaging Interactive Content','Personalized Learning Paths','Real-Time Feedback','Seamless Integration']
   },{
     image: img5,
-    title: 'Carrier Counselling',
-    description : 'Guiding you to unlock your potential and achieve your career aspirations through expert advice and resources.',
-    detailed_description:'Our career counseling service empowers individuals to navigate their professional journey with confidence and clarity. With personalized guidance, industry insights, and skills development resources, our service equips users with the tools they need to achieve their career goals. Transform your career trajectory and unlock new opportunities with our empowering counseling service.',
-    features: ['Personalized Guidance','Industry Insights','Skills Development Resources','Expert Counselors']
+    title: 'Carrier Counseling',
+    description : 'Guiding you to unlock your potential and achieve your career aspirations with expert advice and AI-enhanced career counseling.',
+    detailed_description:'Unlock your true potential and navigate your professional journey with unparalleled confidence and clarity. Our cutting-edge career counseling service is designed to revolutionize the way you achieve your career goals. Harness the power of personalized AI insights, expert guidance, and state-of-the-art skills development resources to take your career to new heights. Experience a career transformation like never before!',
+    features: ['AI-Powered Personalized Guidance','Deep Industry Insights','Next-Gen Skills Development','Expert Counselors and AI-Coaches']
   }
 ]
