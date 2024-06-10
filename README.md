@@ -60,5 +60,17 @@ npm run build
 ```
 This will create an optimized production build in the build folder, which can then be deployed to a web server or a cloud platform of your choice.
 
+## Hosted Site
+
+Below is link to the hosted site:
+
+https://nishant-8009.github.io/Mart-IOT/
+
+## License
+
+This project is licensed under the MIT License. See the LICENSE file for details.
+
+
+
 ---
 Thank you for using Mart IoT Project! We hope you find it useful and look forward to your contributions. If you have any questions or feedback, feel free to reach out.
