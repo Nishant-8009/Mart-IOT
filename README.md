@@ -9,7 +9,8 @@ Welcome to the **Mart IoT Project** repository! This project is a comprehensive,
 2. [Setup Instructions](#setup-instructions)
 3. [Available Scripts](#available-scripts)
 4. [Deployment](#deployment)
-
+5. [Hosted Site Link](#hosted-site-link)
+6. [License](#license)
 
 ## Technologies Used
 
@@ -60,7 +61,7 @@ npm run build
 ```
 This will create an optimized production build in the build folder, which can then be deployed to a web server or a cloud platform of your choice.
 
-## Hosted Site
+## Hosted Site Link
 
 Below is link to the hosted site:
 
