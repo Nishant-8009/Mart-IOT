@@ -11,7 +11,7 @@ function Footer() {
         <span>|</span>
         <Link to ='' style = {{color: 'var(--color-black-ex)'}}>Terms And Condition</Link>
         <span>|</span>
-        <Link to ='/Mart-IOT/contact' style = {{color: 'var(--color-black-ex)'}}>Contact Us</Link>
+        <Link to ='/contact' style = {{color: 'var(--color-black-ex)'}}>Contact Us</Link>
       </div>
       <div className="copyright">
       <div className="col-md-12">

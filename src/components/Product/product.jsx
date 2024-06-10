@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import './product.css'; // Import the CSS file for custom styling
 import { products } from '../../assets/data/Data'; // Import the products data
 import defaultProductImage from '../../assets/images/logo.png'; // Default product image path
@@ -17,7 +18,7 @@ function ProductProfile() {
                 <li key={index}>{feature}</li>
               ))}
             </ul>
-            <div className="stylish-button"><a href="/Mart-IOT/contact">Contact Us</a></div>
+            <div className="stylish-button"> <Link to='/contact'>Contact Us</Link></div>
           </div>
           
         </div>
