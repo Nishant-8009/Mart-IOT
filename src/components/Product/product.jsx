@@ -17,7 +17,9 @@ function ProductProfile() {
                 <li key={index}>{feature}</li>
               ))}
             </ul>
+            <div className="stylish-button"><a href="/Mart-IOT/contact">Contact Us</a></div>
           </div>
+          
         </div>
       ))}
     </div>

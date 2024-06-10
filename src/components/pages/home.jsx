@@ -31,7 +31,7 @@ const HomePage = () => {
     <div className="left-banner">
           <h5>Welcome to <br /><span>Mart IoT</span> </h5>
           <p>Empowering businesses with cutting-edge IoT, AI, and data analytics solutions.</p>
-          <div className="stylish-button">Read more</div>
+          <div className="stylish-button"><a href="#product">Read more</a></div>
     </div>
     <div className="right-banner">
     <Circle/>
@@ -63,7 +63,7 @@ const HomePage = () => {
       ))}
       </div>
     </div>
-    <div className="product">
+    <div className="product" id="product">
     <div className="btn-section">Products</div>
       <h2 style={{background: 'linear-gradient(90deg, #37C592 -0.99%, #7D25EC 104.61%)', // Define your gradient here
     WebkitBackgroundClip: 'text',

@@ -91,7 +91,9 @@ small{
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Shadow for depth */
   transition: background-color 0.3s, transform 0.3s; /* Smooth transitions */
 }
-
+.stylish-button a{
+  color: white;
+}
 .stylish-button:hover {
   background: linear-gradient(45deg, var(--base-color), var(--light-tint-2)); /* Darker purple on hover */
   transform: translateY(-2px); /* Slight lift effect */
