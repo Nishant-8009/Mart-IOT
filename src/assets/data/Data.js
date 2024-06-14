@@ -75,7 +75,7 @@ export const products = [
     features: ['Engaging Interactive Content','Personalized Learning Paths','Real-Time Feedback','Seamless Integration']
   },{
     image: img5,
-    title: 'Carrier Counseling',
+    title: 'Career Counseling',
     description : 'Guiding you to unlock your potential and achieve your career aspirations with expert advice and AI-enhanced career counseling.',
     detailed_description:'Unlock your true potential and navigate your professional journey with unparalleled confidence and clarity. Our cutting-edge career counseling service is designed to revolutionize the way you achieve your career goals. Harness the power of personalized AI insights, expert guidance, and state-of-the-art skills development resources to take your career to new heights. Experience a career transformation like never before!',
     features: ['AI-Powered Personalized Guidance','Deep Industry Insights','Next-Gen Skills Development','Expert Counselors and AI-Coaches']

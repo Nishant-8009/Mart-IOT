@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom';
 function Footer() {
   return (
     <footer className="footer">
-      <h2 style={{color:'var(--dark-shade-3)'}}>Mart Iot</h2>
+      <h2 style={{color:'var(--dark-shade-3)'}}>Mart IoT</h2>
       <div className="footer-links">
         <Link to ='' style = {{color: 'var(--color-black-ex)'}}>Privacy Policy</Link>
         <span>|</span>
